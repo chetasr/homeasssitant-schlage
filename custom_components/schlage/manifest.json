@@ -2,10 +2,10 @@
     "domain": "schlage",
     "name": "Schlage Encode Lock",
     "config_flow": true,
-    "documentation": "https://github.com/mcnutter1/homeasssitant-schlage",
-    "issue_tracker": "https://github.com/mcnutter1/homeasssitant-schlage/issues",
-    "codeowners": ["@mcnutter1"],
+    "documentation": "https://github.com/chetasr/homeasssitant-schlage",
+    "issue_tracker": "https://github.com/chetasr/homeasssitant-schlage/issues",
+    "codeowners": ["@chetasr"],
     "requirements": [],
     "iot_class": "cloud_polling",
-    "version": "1.0",
+    "version": "1.1"
 }
