@@ -36,6 +36,7 @@ class SchlageAPI:
         self._token = None
         self.devices = {}
         self.states = {}
+        print('schlage init')
 
     def _get_token_request(self):
         client = boto3.client("cognito-idp", region_name="us-west-2")
