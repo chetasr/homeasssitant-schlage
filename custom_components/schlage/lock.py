@@ -64,7 +64,7 @@ class SchlageLock(LockEntity):
     @property
     def is_locked(self) -> bool:
         """Return true if the lock is locked."""
-        _LOGGER.debug("%s -> %s", self._schlage_device.api.states)
+        _LOGGER.debug("is_locked -> %s", self._schlage_device.api)
         return self._schlage_device.api.states[self._id]["lockState"]
 
     async def async_lock(self, **kwargs):
