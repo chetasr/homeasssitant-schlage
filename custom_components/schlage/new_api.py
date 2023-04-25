@@ -127,6 +127,7 @@ class SchlageAPI:
         await self._get_devices()
         device_states = {}
         for device in self.devices:
+            _LOGGER.debug(f'LockState: {device["attributes"]["lockState"]}')
             device_state = {}
             device_state["lockState"] = bool(device["attributes"]["lockState"])
             device_state["batteryLife"] = device["attributes"]["batteryLevel"]
